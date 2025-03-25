@@ -1,0 +1,32 @@
+body{
+    font-family: "Roboto Condensed";
+    text-align: justify;
+}
+.container{
+    padding: 10px;   
+}
+
+#h1ti{
+    color: rgb(2, 151, 151);
+    font-size: 80px;
+}
+
+.container2{
+    padding: 10px;
+    background-color: rgb(244, 230, 255);
+}
+
+#h1h{
+color: grey;
+
+}
+
+.container3{
+    padding: 10px;
+    background-color: bisque;
+}
+
+.container4{
+    padding: 10px;
+    background-color: rgb(154, 208, 255);
+}
