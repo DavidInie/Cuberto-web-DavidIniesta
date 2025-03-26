@@ -1,90 +1,64 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 body, html {
     margin: 0;
     padding: 0;
     width: 100%;
 }
-body{
+
+body {
     font-family: "Roboto Condensed";
     text-align: justify;
-    margin: 0px;
-    padding: 0px;
 }
-.container{
-    padding: 10px;  
-    text-align: justify;
-    margin: 0px;
-    padding: 0px;  
 
-}
 .container-fluid {
     padding: 0; /* Elimina el padding del contenedor */
 }
-#mobile{
+
+#mobile {
     font-size: 25px;
 }
 
-#h1ti{
+#h1ti {
     color: rgb(2, 151, 151);
     font-size: 80px;
 }
 
-#h31{
+#h31 {
     font-size: 45px;
 }
 
-#img1{
+#img1, #img2, #img3 {
     width: 100%;
     max-width: 300px;
-    text-align: center;
 }
 
-#img2{
-    width: 100%;
-    max-width: 300px;
-    text-align: center;
-}
-
-#img3{
-    width: 100%;
-    max-width: 300px;
-    text-align: center;
-}
-
-#h3have{
+#h3have {
     text-align: left;
 }
 
-.negro{
+.negro {
     background-color: black;
     color: white;
-    margin: 0px;
-    padding: 0px;
 }
 
-.row{
-    margin: 0; /* Elimina márgenes de las filas */
-    padding: 0; /* Elimina paddings de las filas */
+.row {
+    margin: 0;
+    padding: 0;
 }
 
-.baige{
+.baige {
     background-color: rgb(255, 245, 192);
     color: rgb(0, 0, 0);
-    margin: 0px;
-    padding: 0px;
 }
 
-.azul{
+.azul {
     background-color: rgb(188, 243, 255);
     color: rgb(0, 0, 0);
-    margin: 0px;
-    padding: 0px;
 }
-
-
 
 .row.lila {
     background-color: #f4f0ff; /* Fondo lila claro */
@@ -110,55 +84,30 @@ body{
     font-size: 45px;
     font-weight: 700;
     margin-bottom: 10px;
-    color: gray
+    color: gray;
 }
 
-.row.lila img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px; /* Bordes redondeados */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para la imagen */
-}
-
-.row.baige {
-    background-color: rgb(255, 245, 192); /* Fondo beige */
-    display: flex;
-    align-items: center; /* Centra verticalmente el contenido */
-    padding: 40px 0; /* Espaciado superior e inferior */
-}
-
-.row.baige .col-sm-12.col-lg-6 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 20px; /* Espaciado interno */
-}
-
-.row.baige img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px; /* Bordes redondeados */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para la imagen */
-}
-
-.row.azul {
-    background-color: rgb(188, 243, 255); /* Fondo azul claro */
-    display: flex;
-    align-items: center; /* Centra verticalmente el contenido */
-    padding: 40px 0; /* Espaciado superior e inferior */
-}
-
-.row.azul .col-sm-12.col-lg-6 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 20px; /* Espaciado interno */
-}
-
+.row.lila img,
+.row.baige img,
 .row.azul img {
     max-width: 100%;
     height: auto;
     border-radius: 10px; /* Bordes redondeados */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para la imagen */
+}
+
+.row.baige,
+.row.azul {
+    display: flex;
+    align-items: center; /* Centra verticalmente el contenido */
+    padding: 40px 0; /* Espaciado superior e inferior */
+}
+
+.row.baige .col-sm-12.col-lg-6,
+.row.azul .col-sm-12.col-lg-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px; /* Espaciado interno */
 }
 
