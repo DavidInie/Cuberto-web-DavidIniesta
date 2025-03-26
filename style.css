@@ -1,6 +1,5 @@
 * {
-    margin: 0;
-    padding: 0;
+     padding: 0;
 }
 
 body, html {
@@ -9,13 +8,18 @@ body, html {
     width: 100%;
 }
 
+.container-fluid {
+    padding: 0; /* Elimina lo bordes del contenedor */
+}
+
+.row {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: "Roboto Condensed";
     text-align: justify;
-}
-
-.container-fluid {
-    padding: 0; /* Elimina el padding del contenedor */
 }
 
 #mobile {
@@ -45,34 +49,37 @@ body {
     color: white;
 }
 
-.row {
-    margin: 0;
-    padding: 0;
-}
-
-.baige {
+.baige { /*color baige fondo*/
     background-color: rgb(255, 245, 192);
     color: rgb(0, 0, 0);
 }
 
-.azul {
+.azul { /*color azul fondo*/
     background-color: rgb(188, 243, 255);
     color: rgb(0, 0, 0);
 }
 
 .row.lila {
-    background-color: #f4f0ff; /* Fondo lila claro */
+    background-color: #f4f0ff; /* Fondo lila*/
     display: flex;
-    align-items: center; /* Centra verticalmente el contenido */
+    align-items: center; /* Centra el contenido */
     padding: 40px 0; /* Espaciado superior e inferior */
 }
 
-.row.lila .col-sm-12.col-lg-6 {
+.row.baige,.row.azul{
+    display: flex;
+    align-items: center; /* Centra el contenido */
+    padding: 40px 0; 
+}
+
+
+.row.baige .col-sm-12.col-lg-6,.row.azul .col-sm-12.col-lg-6,.row.lila .col-sm-12.col-lg-6 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 20px; /* Espaciado interno */
 }
+
 
 #strong {
     font-size: 45px;
@@ -87,27 +94,12 @@ body {
     color: gray;
 }
 
-.row.lila img,
-.row.baige img,
-.row.azul img {
+.row.lila img,.row.baige img,.row.azul img {
     max-width: 100%;
     height: auto;
     border-radius: 10px; /* Bordes redondeados */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para la imagen */
 }
 
-.row.baige,
-.row.azul {
-    display: flex;
-    align-items: center; /* Centra verticalmente el contenido */
-    padding: 40px 0; /* Espaciado superior e inferior */
-}
 
-.row.baige .col-sm-12.col-lg-6,
-.row.azul .col-sm-12.col-lg-6 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 20px; /* Espaciado interno */
-}
 
