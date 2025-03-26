@@ -1,12 +1,25 @@
+*{
+    margin: 0;
+}
 body{
     font-family: "Roboto Condensed";
     text-align: justify;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 .container{
     padding: 10px;  
-    text-align: justify; 
+    text-align: justify;
+    margin: 0px;
+    padding: 0px;  
+
+}
+#mobile{
+    font-size: 25px;
+}
+#strong{
+    font-size: 45px;
+    
 }
 
 #h1ti{
@@ -14,39 +27,13 @@ body{
     font-size: 80px;
 }
 
-.container2{
-    padding: 10px;
-    background-color: rgb(244, 230, 255);
-    text-align: center;
-    padding-left: 50px;
-}
-
 #h1h{
     color: grey;
+    font-size: 45px;
 }
 
-.container3{
-    padding: 10px;
-    background-color: bisque;
-    padding-left: 10%;
-}
-
-.container4{
-    padding: 10px;
-    background-color: rgb(154, 208, 255);
-}
-
-.container5{
-    padding: 10px;
-    background-color: rgb(0, 0, 0);
-    color: white;
-    text-align: center;
-}
-
-.container6{
-    padding: 10px;
-    background-color: rgb(0, 0, 0);
-    color: white;
+#h31{
+    font-size: 45px;
 }
 
 #img1{
@@ -57,7 +44,6 @@ body{
 #img2{
     width: 100%;
     max-width: 300px;
-    padding-left: 0;
 }
 
 #img3{
@@ -68,39 +54,37 @@ body{
 #h3have{
     text-align: left;
 }
-.container, .container2, .container3, .container4, .container5, .container6 {
-    width: 100%;
-    padding: 0;
+
+.negro{
+    background-color: black;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+.lila{
+    background-color: rgb(207, 175, 255);
+    color: rgb(0, 0, 0);
+    margin: 0px;
+    padding: 0px;
+}
+.row{
+    margin: 0px;
+    padding: 0px;
 }
 
-/* Media queries para versión móvil */
-@media (max-width: 800px) {
-    .container, .container2, .container3, .container4, .container5, .container6 {
-        padding: 20px;
-        text-align: center;
-    }
-    .row {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .col-6 {
-        width: 100%;
-    }
-    #h1ti {
-        font-size: 40px;
-        text-align: center;
-    }
-    #img1, #img2, #img3 {
-        width: 90%;
-        max-width: 300px;
-    }
+.baige{
+    background-color: rgb(255, 245, 192);
+    color: rgb(0, 0, 0);
+    margin: 0px;
+    padding: 0px;
 }
 
-@media (max-width: 600px) {
-    .footer-links {
-        display: grid;
-        grid-template-columns: 1fr;
-        text-align: center;
-    }
+.azul{
+    background-color: rgb(188, 243, 255);
+    color: rgb(0, 0, 0);
+    margin: 0px;
+    padding: 0px;
 }
+
+
+
