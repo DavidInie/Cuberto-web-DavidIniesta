@@ -1,5 +1,11 @@
 *{
     margin: 0;
+    padding: 0;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
 body{
     font-family: "Roboto Condensed";
@@ -14,22 +20,16 @@ body{
     padding: 0px;  
 
 }
+.container-fluid {
+    padding: 0; /* Elimina el padding del contenedor */
+}
 #mobile{
     font-size: 25px;
-}
-#strong{
-    font-size: 45px;
-    
 }
 
 #h1ti{
     color: rgb(2, 151, 151);
     font-size: 80px;
-}
-
-#h1h{
-    color: grey;
-    font-size: 45px;
 }
 
 #h31{
@@ -64,15 +64,10 @@ body{
     margin: 0px;
     padding: 0px;
 }
-.lila{
-    background-color: rgb(207, 175, 255);
-    color: rgb(0, 0, 0);
-    margin: 0px;
-    padding: 0px;
-}
+
 .row{
-    margin: 0px;
-    padding: 0px;
+    margin: 0; /* Elimina márgenes de las filas */
+    padding: 0; /* Elimina paddings de las filas */
 }
 
 .baige{
@@ -90,4 +85,80 @@ body{
 }
 
 
+
+.row.lila {
+    background-color: #f4f0ff; /* Fondo lila claro */
+    display: flex;
+    align-items: center; /* Centra verticalmente el contenido */
+    padding: 40px 0; /* Espaciado superior e inferior */
+}
+
+.row.lila .col-sm-12.col-lg-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px; /* Espaciado interno */
+}
+
+#strong {
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#h1h {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: gray
+}
+
+.row.lila img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para la imagen */
+}
+
+.row.baige {
+    background-color: rgb(255, 245, 192); /* Fondo beige */
+    display: flex;
+    align-items: center; /* Centra verticalmente el contenido */
+    padding: 40px 0; /* Espaciado superior e inferior */
+}
+
+.row.baige .col-sm-12.col-lg-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px; /* Espaciado interno */
+}
+
+.row.baige img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para la imagen */
+}
+
+.row.azul {
+    background-color: rgb(188, 243, 255); /* Fondo azul claro */
+    display: flex;
+    align-items: center; /* Centra verticalmente el contenido */
+    padding: 40px 0; /* Espaciado superior e inferior */
+}
+
+.row.azul .col-sm-12.col-lg-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px; /* Espaciado interno */
+}
+
+.row.azul img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para la imagen */
+}
 
